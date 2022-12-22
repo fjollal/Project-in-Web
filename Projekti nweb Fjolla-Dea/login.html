@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Log in</title>
+    <link rel="stylesheet" href="2style.css">
+</head>
+<body>
+	<div class="login-form" id="login-form">
+        <img src="https://cdn-icons-png.flaticon.com/512/5087/5087579.png" class="center" />
+        <br>
+        <br>
+        <form name="logInForm" action="php/Login/views/loginValid.php" method="POST">
+            <div class="inputs">
+                    <div class="input">
+                        <label>Username or Email </label>
+                       <br>
+                        <input class="username" id="username" name="username" type="text" placeholder="Username..."/>
+                    </div>
+                    <br>
+                    <div class="input">
+                        <label>Password </label>
+                        <br>
+                        <input class="username" id="password" name="password" type="password" placeholder="Password..."/>
+                        <br>
+                        <br>
+                        <button class="button" name="SignInButton" id="SignInButton">Log In</button>
+                    </div>
+            </div>
+        </form>
+</div>
+<script>
+    var form = document.getElementById("form");
+    var username = document.getElementById("username");
+    var password = document.getElementById("password");
+
+    form.onsubmit = function (event) {
+        if (username.value === '' || password.value === '') {
+            alert('Make sure you have filled all required fields');
+            event.preventDefault();
+        }
+    };
+</script>   
+</body>
+</html>

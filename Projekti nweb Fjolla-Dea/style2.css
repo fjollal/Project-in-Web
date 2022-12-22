@@ -1,0 +1,60 @@
+body{
+    background-color: antiquewhite;
+}
+label{
+    color: rgb(191, 64, 191);
+}
+.signup-form{
+    margin-top: 40px;
+   margin-left: 470px;
+   background-color: whitesmoke;
+   width: 400px;
+   height: 570px;
+   border-radius: 10px;
+}
+img{
+    margin-left: 160px;
+    margin-top: 8px;
+    width: 90px;
+    height: 90px;
+    
+}
+.inputs{
+    font-size: 25px;
+    margin-left: 70px;
+
+}
+.input{
+    font-size: 25px;
+}
+.firstname{
+    color: rgb(191, 64, 191);
+    width: 260px;
+    height: 25px;
+    border: none;
+}
+.button{
+    background-color: rgb(191, 64, 191);
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 260px;
+    height: 40px;
+    
+}
+.email{
+    color: rgb(191, 64, 191);
+    width: 260px;
+    height: 25px;
+    border: none;
+}
+.footer{
+   
+    width: 100%;
+    height: auto;
+    color: rgb(191, 64, 191);
+    text-align: center;
+}

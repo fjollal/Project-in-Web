@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Contact us</title>
+    <link rel="stylesheet" href="5style.css">
+</head>
+<body>
+    <header  id="header" class="header">
+        <div class="container">
+            <nav id="nav">  
+                <ul class="nav-area">
+                    <li><a href="http://127.0.0.1:5500/index.html" style="color: #f50057">Home &nbsp &nbsp &nbsp</a></li>
+                    <li><a href="http://127.0.0.1:5500/aboutus.html" style="color: #f50057">&nbsp &nbsp About Us &nbsp &nbsp &nbsp</a></li>
+                    <li><a href="http://127.0.0.1:5500/contactus.html" style="color: #f50057">&nbsp &nbsp Contact Us &nbsp &nbsp &nbsp</a></li>
+                    <li><a href="http://127.0.0.1:5500/login.html" style="color: #f50057">&nbsp &nbsp Log In &nbsp &nbsp &nbsp</a></li>
+                    <li><a href="http://127.0.0.1:5500/signout.html" style="color: #f50057">&nbsp &nbsp Sign Up &nbsp &nbsp</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    <div class="con">
+        <div class="img">
+        <img src="images/WhatsApp Image 2022-12-14 at 11.56.15.jpeg" alt="">
+        </div>
+        <br>
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <br>
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <br>
+              <label for="country">Country &nbsp &nbsp </label>
+              <select id="country" name="country">
+                <option value="australia">Kosovo</option>
+                <option value="canada">America</option>
+                <option value="usa">Turkey</option>
+              </select>
+          
+              <label for="subject">Subject &nbsp &nbsp &nbsp </label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <br>
+          <br>
+              <input class="input" type="submit" value="Submit">
+            </form>
+          </div>
+    </div>
+</body>
+</html>

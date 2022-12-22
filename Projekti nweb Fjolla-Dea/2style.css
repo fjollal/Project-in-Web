@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+}
+label{
+    color: rgb(191, 64, 191);
+}
+.login-form{
+   margin-top: 110px;
+   margin-left: 500px;
+   background-color: whitesmoke;
+   width: 350px;
+   height: 450px;
+   border-radius: 10px;
+}
+img{
+    margin-left: 115px;
+    width: 130px;
+    height: 130px;
+}
+.input{
+    font-size: 32px;
+    margin-left: 40px;
+}
+.username{
+    color: rgb(191, 64, 191);
+    width: 260px;
+    height: 25px;
+    border: none;
+}
+.button{
+    background-color: rgb(191, 64, 191);
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 260px;
+    height: 25px;
+}
